@@ -1,11 +1,7 @@
 {
   "name": "guadeloupe",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage": "https://jhonise.github.io",
-=======
-  "homepage": "https://Jhonise.github.io",
->>>>>>> 15354c279ef8d82e86c59228999f69a4c4660d96
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
