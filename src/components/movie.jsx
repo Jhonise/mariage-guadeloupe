@@ -1,8 +1,7 @@
 import React from 'react';
 import Trailer from '../media/movie.mp4';
 import Typewriter from 'typewriter-effect';
-import {AiOutlineSearch} from 'react-icons/ai';
-// import { Parallax } from 'react-parallax';
+
 
 
 const Movie = () => {
@@ -32,11 +31,4 @@ const Movie = () => {
 
 export default Movie
 
-
-{/* <form className='flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100'>
-<input type="text" placeholder='Trouver des activités' className='bg-transparent w-[300px] sm:w-[400px] font-[Lora] focus:outline-none text-2xl'/>
-<div>
-<button><AiOutlineSearch size={20} className='icon'/></button>
-</div>
-</form> */}
 

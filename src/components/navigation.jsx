@@ -19,7 +19,7 @@ const Navigation = () => {
                 <Movie/>
             </div>
             <div className='max-w-[1140px] m-auto w-full px-4 py-2 sm:py-12'>
-                <h1 class='style font-bold text-[#CEA450] pb-10 sm:text-[70px]'>Découvrir la Guadeloupe</h1>
+                <h1 class='style font-bold text-[#CEA450] pb-10 sm:text-[70px]'>Hello Découvrir la Guadeloupe</h1>
                 <div className ='text-center  font-bold text-[#307C7C] pb-10'>
                     {/* <p>Par où commencer ? Promenades ? Plages ? <br/> </p> */}
                     <p class="text-pink-600">On vous donne nos bons plans ! </p>
