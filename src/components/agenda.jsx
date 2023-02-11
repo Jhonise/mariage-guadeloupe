@@ -25,7 +25,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-xl font-semibold text-gray-700 mr-2 mb-2">Jeudi 10 Après-midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold text-gray-700 mr-2 mb-2">Jeudi 10 Après-midi</span>
           <img class="w-full" src={Chill} alt="Chill"/>
         </div>
         <div class="px-6 py-4">
