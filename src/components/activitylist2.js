@@ -55,9 +55,9 @@ export default function ActivityList2() {
                           <img className='w-full' onClick={() => {setOpen(true); setCurrentImage(index)}} src={activity.link} alt="" />
                         </div>
                           <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">{activity.nom}
-                              <p className="text-gray-700 text-base pb-4">{activity.infos}</p>
-                              <a className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" href={activity.lien} target="_blank">Plus d'infos</a>
+                            <div className="font-bold text-xl mb-2 text-[#AE682E]">{activity.nom}
+                              <p className="text-gray-700 text-sm pb-4">{activity.infos}</p>
+                              <a className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 text-[#307C7C]" href={activity.lien} target="_blank">Plus d'infos</a>
                             </div>
                           </div>
                       </div>
