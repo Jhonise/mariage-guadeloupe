@@ -1,6 +1,5 @@
 import Cote from '../images/cote700400.jpeg';
 import Jardin from '../images/jardin700400.jpg';
-import Plage from '../images/plage700400.jpg';
 import Riviere from '../images/riviere700400.jpeg';
 import Saintes from '../images/saintes700400.jpg';
 import Randoaqua from '../images/Randoaqua2.jpg';
@@ -35,6 +34,15 @@ import PointeChateaux from '../images/PointeChateaux.jpg';
 
 
 export const activities =[
+  {
+    id : "5",
+    link : PetiteTerre,
+    nom :'Excursion réserve à Petite Terre',
+    alt :'Excursion réserve à Petite Terre',
+    categories : ['Bateau', 'Mer', 'Baignade'],
+    infos :"Petite Terre est un archipel de deux ilets classés Réserve Naturelle depuis 1998. Le phare est l’unique construction. Vous découvrirez une magnifique plage de sable blanc ombragée de cocotiers, un lagon aux eaux cristallines, une faune et une flore préservées.",
+    lien :'https://www.petite-terre.com/'
+},
     {
         id : "1",
         link : Randoaqua,
@@ -72,15 +80,6 @@ export const activities =[
         infos :"Le marché de Sainte-Anne est un marché aux multiples couleurs et parfums. Les nombreux étales du marché vous proposent des fleurs tropicales, de l'artisanat (colliers, boucles d'oreilles, paréos, paniers...), des maillots de bain et des serviettes de bain. Les étals de rhums et d'épices sont nombreux, il vous sera possible de gouter les différents rhums arrangés (vanille, ananas, banane, coco...).",
         lien :'https://www.annuaire-mairie.fr/marche-sainte-anne-971.html'
     },
-    {
-      id : "5",
-      link : PetiteTerre,
-      nom :'Excursion réserves à Petite Terre',
-      alt :'Excursion réserves à Petite Terre',
-      categories : ['Bateau', 'Mer', 'Baignade'],
-      infos :"Petite Terre est un archipel de deux ilets classés Réserve Naturelle depuis 1998. Le phare est l’unique construction. Vous découvrirez une magnifique plage de sable blanc ombragée de cocotiers, un lagon aux eaux cristallines, une faune et une flore préservées.",
-      lien :'https://www.petite-terre.com/'
-  },
   {
     id : "6",
     link : MarchePetitBourg,

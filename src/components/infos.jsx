@@ -1,8 +1,5 @@
 import React from 'react'
-import {FaPlaneArrival, FaChurch} from 'react-icons/fa'
-import {GiPositionMarker, GiBigDiamondRing} from 'react-icons/gi'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import Beach from '../images/beach2.jpg'
 
 const Infos =() => {
     return (

@@ -36,7 +36,7 @@ export default function FAQ (){
     };
 
     return (
-        <div className="px-4">
+        <div className="px-4 py-20">
             <Faq
                 data={data}
                 styles={styles}
