@@ -16,9 +16,9 @@ import Carousel from 'better-react-carousel';
 
 export default function Agenda() {
   return (
-    <div class="pt-20">
+    <div class="pt-10">
     <div className='text-center'>
-      <h1 class='style font-bold'>Agenda des Mariés</h1>
+      <h1 class='style font-bold text-[#307C7C]'>Agenda des Mariés</h1>
     </div>
     
     <Carousel cols={3} rows={1} gap={20}>
