@@ -249,7 +249,7 @@ export const activities =[
   alt :"Visite du domaine Vanibel",
   categories : ["Végétation", "Culture"],
   infos :"Apprenez comment est cultivé le café de la Guadeloupe et goûtez à différentes variétés. D’autres espèces sont abordées (vanille, cacao, bananeraies etc…)",
-  lien :'http://www.vanibel.fr/'
+  lien :'https://www.vanibel.fr/details.php?id_article=552'
 },
 {
   id : "25",
@@ -286,15 +286,6 @@ export const activities =[
   categories : ['Promenade', "Végétation"],
   infos :"Découvrez une grande variété de plantes tropicales et exotiques de la Guadeloupe.",
   lien :'https://www.jardin-botanique.com/fr/accueil/'
-},
-{
-  id : "29",
-  link : Desirade,
-  nom :'Les îles de Guadeloupe : La Desirade',
-  alt :'La Desirade',
-  categories : ['Mer', 'Plage', 'Baignade', "Promenade", "Bateau"],
-  infos :"L’île de la Désirade se situe à l’est de la Grande-Terre dans l’archipel guadeloupéen. D’une superficie de 22 km², elle présente un large éventail de roches et de phénomènes géologiques",
-  lien :'https://www.lesilesdeguadeloupe.com/tourisme/fr-fr/iles/la-desirade'
 },
 {
   id : "30",

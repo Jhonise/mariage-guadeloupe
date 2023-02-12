@@ -24,7 +24,7 @@ export default function ActivityList2() {
   return (
     <div className ='mb-16 text-center pt-16'>
       <div class="sm:hidden mx-6">
-        <select id="tabs" className="bg-[#2D7B7B] border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        <select id="tabs" className="bg-[#00739F] border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         onChange={(event) => handleCategoryChange(event.target.value)}>
         {categories.map(category => (
           <option
