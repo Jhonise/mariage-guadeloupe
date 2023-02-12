@@ -128,6 +128,7 @@ export default function Agenda() {
           <div class="font-bold text-xl mb-2">Plage et marché</div>
           <p class="text-gray-700 text-base">
           Séance bronzage et chill à la plage de Sainte-Anne jusqu'au soir (plage éclairée).
+          </p>
         </div>
         <div class="px-6 pt-4 pb-2">
         <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Dodo</span>
@@ -259,7 +260,7 @@ export default function Agenda() {
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Cascade de la lézarde</div>
           <p class="text-gray-700 text-base">
-          Avant de partir, un dernier détour à la cascade de la lézarde pour se raffraichir.
+          Avant de partir, un dernier détour à la cascade de la lézarde pour se rafraichir.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
