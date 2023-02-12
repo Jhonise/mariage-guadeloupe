@@ -16,7 +16,7 @@ import Carousel from 'better-react-carousel';
 
 export default function Agenda() {
   return (
-    <div class="pt-20 ">
+    <div class="pt-20">
     <div className='text-center'>
       <h1 class='style font-bold'>Agenda des Mariés</h1>
     </div>
@@ -25,7 +25,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold text-gray-700 mr-2 mb-2">Jeudi 10 Après-midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Jeudi 1er Juin Après-midi</span>
           <img class="w-full" src={Chill} alt="Chill"/>
         </div>
         <div class="px-6 py-4">
@@ -45,7 +45,7 @@ export default function Agenda() {
 {/* <!--Card --> */}
 <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vendredi Matin</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Vendredi 2 Juin Matin</span>
           <img class="w-full" src={Randoaqua} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -64,7 +64,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vendredi Après-midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Vendredi 2 Juin Après-midi</span>
           <img class="w-full" src={PlageDeshaies} alt=""/>
         </div>
         <div class="px-6 py-4">
@@ -83,7 +83,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Samedi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Samedi 3 Juin</span>
           <img class="w-full" src={Wedding} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -102,7 +102,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Dimanche matin</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Dimanche 4 Juin matin</span>
           <img class="w-full" src={Brunch} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -121,7 +121,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Dimanche Après-midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Dimanche 4 Juin Après-midi</span>
           <img class="w-full" src={SaintAnne} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -140,7 +140,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Lundi toute la journée</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Lundi 5 Juin</span>
           <img class="w-full" src={PetiteTerre} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -159,7 +159,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Mardi Matin</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Mardi 6 Juin Matin</span>
           <img class="w-full" src={DistillerieBologne} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -178,7 +178,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Mardi Après midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Mardi 6 Juin Après midi</span>
           <img class="w-full" src={VieuxFort} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -197,7 +197,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Mercredi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Mercredi 7 Juin</span>
           <img class="w-full" src={Soufriere} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -216,7 +216,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Jeudi Matin</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Jeudi 8 Juin Matin</span>
           <img class="w-full" src={PointeChateaux} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -235,7 +235,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Jeudi Après-midi</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Jeudi 8 Juin Après-midi</span>
           <img class="w-full" src={Cote} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -254,7 +254,7 @@ export default function Agenda() {
       <Carousel.Item>
       <div class="rounded overflow-hidden shadow-lg bg-white">
         <div class='relative'>
-          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vendredi Matin</span>
+          <span class="absolute left-1 top-1 bg-gray-200 rounded px-3 py-1 text-l text-[#AE682E] font-semibold mr-2 mb-2">Vendredi 9 Juin Matin</span>
           <img class="w-full" src={Riviere} alt="Randonnée Aquatique"/>
         </div>
         <div class="px-6 py-4">
@@ -275,8 +275,4 @@ export default function Agenda() {
       </div>
   );
 }
-
-
-
-// bg-[url('https://images.unsplash.com/photo-1437719417032-8595fd9e9dc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')]
 

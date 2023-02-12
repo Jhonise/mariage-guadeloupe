@@ -254,8 +254,8 @@ export const activities =[
 {
   id : "25",
   link : Cacao,
-  nom :"Visite du domaine Vanibel",
-  alt :"Visite du domaine Vanibel",
+  nom :"Visite de la Maison du Cacao",
+  alt :"Maison du Cacao",
   categories : ["Végétation", "Culture"],
   infos :"Cheminez dans la cacaoyère dans un parcours pédagogique et ludique ponctué d’informations botaniques et historiques sur le cacao.",
   lien :'https://www.maisonducacao.fr/'
