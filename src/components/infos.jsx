@@ -75,7 +75,7 @@ const Infos =() => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
-                        <p>Nous vous proposons de découvrir sur une journée la réserva naturelle sur l'île de Petite terre. Journée organisée à 110 euros par persone (tout compris)</p>
+                        <p>Nous vous proposons de découvrir sur une journée la réserve naturelle sur l'île de Petite terre. Journée organisée à 110 euros par persone (tout compris)</p>
                     </div>
                 <div>
                     <p className='text-[#AE682E]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage sable blanc, lagon et avec de la chance des tortues</p>
