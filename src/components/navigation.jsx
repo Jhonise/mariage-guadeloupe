@@ -67,7 +67,7 @@ const Navigation = () => {
             <div className='pt-10 pb-20 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-t-8'>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
                     <div className='sm:text-right sm:pb-8 pb-4 pl-4'>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> Annou ay !</p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> An nou ay !</p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
