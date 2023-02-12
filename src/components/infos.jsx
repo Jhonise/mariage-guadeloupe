@@ -2,7 +2,7 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
 
-const MapButton = ({ address }) => {
+const MapButton = ({ addressHabitation }) => {
     const handleClick = () => {
       window.open(`https://www.google.com/maps/search/?api=1&query=habitation+saint+charles+Chemin+de+Grippiere+Petit-Bourg+Guadeloupe`, '_blank');
     };
@@ -12,10 +12,28 @@ const MapButton = ({ address }) => {
         className='text-white border-2 px-6 py-3 my-2 flex items-center max-w-[190px] max-h-[30px]'
         onClick={handleClick}
       >
-        {address} <HiArrowNarrowRight className='ml-2' />
+        {addressHabitation} <HiArrowNarrowRight className='ml-2' />
       </button>
     );
   };
+
+  const MapButton2 = ({ addressEglise }) => {
+    const handleClick2 = () => {
+      window.open(` https://maps.google.com/?q=Rue+du+Père+Benetreau,+Goyave,+Guadeloupe&ll=16.135493,-61.572781`, '_blank');
+    };
+  
+    return (
+      <button
+        className='text-white border-2 px-6 py-3 my-2 flex items-center max-w-[190px] max-h-[30px]'
+        onClick={handleClick2}
+      >
+        {addressEglise} <HiArrowNarrowRight className='ml-2' />
+      </button>
+    );
+  };
+
+
+ 
 
 
 const Infos =() => {
@@ -42,8 +60,8 @@ const Infos =() => {
                 <div>
                     <p className='text-[#AE682E]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait</p>
                     <div className='grid sm:grid-cols-2'>   
-                        <MapButton address='Adresse Eglise' />
-                        <MapButton address='Adresse Soirée' />
+                        <MapButton2 addressEglise='Adresse Eglise' />
+                        <MapButton addressHabitation='Adresse Soirée' />
                     </div> 
                 </div>
                 </div>
