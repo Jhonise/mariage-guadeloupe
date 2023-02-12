@@ -42,7 +42,7 @@ const Infos =() => {
             <div className='pt-20 pb-10 max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full border-b-8'>
                 <p className ='text-pink-600 text-left'>Pour ceux qui partent avec nous</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#CEA450]'>Avion</h1>
-                <h2 className='text-4xl sm:text-5xl font-bold text-[#307C7C]'>Départ à 12h20 de Paris et arrivée à 15h00 à Pointe-à-Pitre.</h2>
+                <h2 className='text-4xl sm:text-5xl font-bold text-[#307C7C]'>Départ le 1er Juin à 12h20 de Paris (Orly) et arrivée à 15h00 à Pointe-à-Pitre.</h2>
                 <p className='text-[#AE682E] py-4 max-w-[700px]'>Pensez à vous munir de votre passeport ou carte d'identité (en cours de validité).
                    Il faut être sur place minimum deux heures avant l'embarquement.</p>
             </div>
