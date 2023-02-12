@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 :root {
-    --primary-dark: #4E9393;
+    --primary-dark: #00739F;
     --primary-light : #2D7B7B;
 }
 
@@ -26,7 +26,7 @@
         @apply text-xl font-bold
     }
     button {
-        @apply p-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md
+        @apply p-2 border bg-[#00739F] text-white rounded-md
     }
 }
 

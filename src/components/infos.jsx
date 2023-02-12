@@ -48,7 +48,7 @@ const Infos =() => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
-                        <p>La cérémonie religieuse aura lieu à l'église de la ville de Goyave qui sera suivi d'un dîner à l'habitation Saint-Charles</p>
+                        <p>La cérémonie religieuse qui aura lieu à l'église de la ville de Goyave sera suivie d'un dîner à l'habitation Saint-Charles</p>
                     </div>
                 <div>
                     <p className='text-[#AE682E]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait. Attention l'église n'est pas référencée sur Google, il faut se rendre dans la rue du Père Benetreau.</p>
@@ -62,13 +62,13 @@ const Infos =() => {
             <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-b-8'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className ='text-[#D34D2A] text-left'>Propositions d'activités</p>
+                        <p className ='text-[#D34D2A] text-left'>Proposition d'activité</p>
                         <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Ensemble </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
-                        <p>Nous vous proposons de découvrir sur une journée la réserve naturelle sur l'île de Petite terre. Journée organisée à 110 euros par persone (tout compris)</p>
+                        <p>Nous vous proposons de découvrir sur une journée la réserve naturelle sur l'île de Petite terre. Journée organisée à 110 euros par personne (All inclusive)</p>
                     </div>
                 <div>
                     <p className='text-[#AE682E]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage sable blanc, lagon et avec de la chance des tortues</p>

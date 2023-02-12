@@ -29,7 +29,7 @@ const Navigation = () => {
                         <p>On vous a préparé un récapitulatif des infos majeures dans informations utiles et on répond aux questions dans une FAQ accessible ci-dessous</p>
                     </div>
                 <div>
-                    <p className='text-[#0C700C]'>Si vous ne trouvez pas la réponse, il y a toujours la conversation WhatsApp</p>
+                    <p className='text-[#AE682E]'>Si vous ne trouvez pas la réponse, il y a toujours la conversation WhatsApp</p>
                     <div className='grid sm:grid-cols-2 px-2 py-4'>   
                         <Link className ='px-3 text-[#00739F] font-bold ' to='/informations'> Informations utiles <HiArrowNarrowRight className='ml-2'/></Link>
                         <Link className ='px-3 text-[#00739F] font-bold' to='/faq'> FAQ <HiArrowNarrowRight className='ml-2'/></Link>
@@ -57,7 +57,7 @@ const Navigation = () => {
                         <img className='w-full h-full object-cover' src={Riviere} alt='/' />
                     </div>
                     <div class='bg-gray-200/[0.7] w-full relative'>
-                        <Link className ='absolute z-10 top-6 left-2 px-3 text-[#D34D2A] font-bold' to='/activites'> Notre sélection <HiArrowNarrowRight className='ml-2'/></Link>
+                        <Link className ='absolute z-10 top-6 left-2 px-3 text-[#00739F] font-bold' to='/activites'> Notre sélection <HiArrowNarrowRight className='ml-2'/></Link>
                         <img className='absolute w-full h-full object-cover mix-blend-overlay' src={Cote} alt='/' />   
                     </div>
                 </div>
@@ -75,9 +75,9 @@ const Navigation = () => {
                         <p>On vous dit tout sur notre planning, sentez-vous libre de venir avec nous ! </p>
                     </div>
                 <div>
-                    <p className='text-[#0C700C]'>Vous avez le pied marin ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
+                    <p className='text-[#AE682E]'>Vous avez le pied marin ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
                     <div className='grid sm:grid-cols-2  pt-4'>   
-                        <Link className ='px-3 text-[#00739F] font-bold ' to='/agenda'> Agenda des mariés </Link>
+                        <Link className ='px-3 text-[#00739F] font-bold ' to='/agenda'> Agenda des mariés <HiArrowNarrowRight className='ml-2'/></Link>
                     </div> 
                 </div>
                 </div>
