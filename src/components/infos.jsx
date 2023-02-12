@@ -43,7 +43,7 @@ const Infos =() => {
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
                         <p className ='text-[#D34D2A] text-left'>Samedi 3 juin 2023 à 15h</p>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Mariage </p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> Mariage </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
@@ -71,7 +71,7 @@ const Infos =() => {
                         <p>Nous vous proposons de découvrir sur une journée la réserve naturelle sur l'île de Petite terre. Journée organisée à 110 euros par personne (All inclusive)</p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage sable blanc, lagon et avec de la chance des tortues</p>
+                    <p className='text-[#AE682E]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage de sable blanc, lagon et l'occasion d'admirer la faune et la flore caribbéenne sous-marine </p>
                 </div>
                 </div>
             </div>

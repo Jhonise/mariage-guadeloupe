@@ -29,7 +29,7 @@ const Navigation = () => {
                         <p>On vous a préparé un récapitulatif des infos majeures dans informations utiles et on répond aux questions dans une FAQ accessible ci-dessous</p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Si vous ne trouvez pas la réponse, il y a toujours la conversation WhatsApp</p>
+                    <p className='text-[#0085B8]'>Si vous ne trouvez pas la réponse, il y a toujours la conversation WhatsApp</p>
                     <div className='grid sm:grid-cols-2 px-2 py-4'>   
                         <Link className ='px-3 text-[#00739F] font-bold ' to='/informations'> Informations utiles <HiArrowNarrowRight className='ml-2'/></Link>
                         <Link className ='px-3 text-[#00739F] font-bold' to='/faq'> FAQ <HiArrowNarrowRight className='ml-2'/></Link>
