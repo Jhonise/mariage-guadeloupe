@@ -1,14 +1,31 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
+
+const MapButton = ({ address }) => {
+    const handleClick = () => {
+      window.open(`https://www.google.com/maps/search/?api=1&query=habitation+saint+charles+Chemin+de+Grippiere,+Petit-Bourg,+Guadeloupe`, '_blank');
+    };
+  
+    return (
+      <button
+        className='text-white border-2 px-6 py-3 my-2 flex items-center max-w-[190px] max-h-[30px]'
+        onClick={handleClick}
+      >
+        {address} <HiArrowNarrowRight className='ml-2' />
+      </button>
+    );
+  };
+
+
 const Infos =() => {
     return (
         <div>
             <div className='pt-20 max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full border-b-8'>
-                <p className ='text-[#61B6B5]'>Départ en</p>
-                <h1 className='text-4xl sm:text-7xl font-bold text-[#CEA450]'>Guadeloupe</h1>
-                <h2 className='text-4xl sm:text-5xl font-bold text-[#307C7C]'>Départ à 12h20 de Paris et arrivée à 15h20 Pointe-à-Pitre.</h2>
-                <p className='text-[#307C7C] py-4 max-w-[700px]'>Pensez à vous munir de votre passeport ou carte d'identité (en cours de validité).
+                <p className ='text-pink-600 text-left'>Pour ceux qui partent avec nous</p>
+                <h1 className='text-4xl sm:text-7xl font-bold text-[#CEA450]'>Avion</h1>
+                <h2 className='text-4xl sm:text-5xl font-bold text-[#307C7C]'>Départ à 12h20 de Paris et arrivée à 15h00 à Pointe-à-Pitre.</h2>
+                <p className='text-[#AE682E] py-4 max-w-[700px]'>Pensez à vous munir de votre passeport ou carte d'identité (en cours de validité).
                    Il faut être sur place minimum deux heures avant l'embarquement.</p>
             </div>
             <div className='pt-20 sm:pt-40 px-4 flex flex-col justify-center items-center w-full h-ful border-b-8'>
@@ -25,8 +42,8 @@ const Infos =() => {
                 <div>
                     <p className='text-[#AE682E]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait</p>
                     <div className='grid sm:grid-cols-2'>   
-                        <button className='text-white border-2 px-6 py-3 my-2 flex items-center max-w-[190px] max-h-[30px]'>Adresse Eglise <HiArrowNarrowRight className='ml-2'/></button>
-                        <button className='text-white border-2 px-6 py-3 my-2 flex items-center max-w-[190px] max-h-[30px]'>Adresse Soirée <HiArrowNarrowRight className='ml-2'/></button>
+                        <MapButton address='Adresse Eglise' />
+                        <MapButton address='Adresse Soirée' />
                     </div> 
                 </div>
                 </div>
@@ -52,3 +69,6 @@ const Infos =() => {
 }
 
 export default Infos
+
+
+https://www.google.fr/maps/place/Habitation+Saint+Charles/@16.2206464,-61.627064,17z/data=!3m1!4b1!4m9!3m8!1s0x8c13431f464a4fe7:0xedb616771ce6e5da!5m2!4m1!1i2!8m2!3d16.2206413!4d-61.6248753!16s%2Fg%2F11h9h1f_j7
