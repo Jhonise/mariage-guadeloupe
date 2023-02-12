@@ -21,11 +21,11 @@ const Navigation = () => {
             <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-b-8' >
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
                     <div className='sm:text-right sm:pb-8 pb-4 pl-4'>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Tout savoir </p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#D34D2A]'> Tout savoir </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className ='sm:text-right text-lg font-bold text-[#307C7C]'>
+                    <div className ='sm:text-right text-lg font-bold text-[#60BA9D]'>
                         <p>On vous a préparé un récapitulatif des infos majeures à retenir et on répond aux questions dans une FAQ</p>
                     </div>
                 <div>
@@ -39,8 +39,8 @@ const Navigation = () => {
             </div>
 
             <div className='max-w-[1140px] m-auto w-full px-4 pb-10 sm:py-12 '>
-                <h1 class='text-center font-bold text-[#CEA450] pb-10 text-4xl sm:text-7xl'>Découvrir la Guadeloupe</h1>
-                <div className ='text-center  font-bold text-[#307C7C] pb-10'>
+                <h1 class='text-center font-bold text-[#00739F] pb-10 text-4xl sm:text-7xl'>Découvrir la Guadeloupe</h1>
+                <div className ='text-center  font-bold text-[#60BA9D] pb-10'>
                     <p class="text-[#D34D2A]">On vous donne nos bons plans ! </p>
                 </div>
                 <div className='grid sm:grid-cols-5 gap-4'>
@@ -67,11 +67,11 @@ const Navigation = () => {
             <div className='pt-10 pb-20 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-t-8'>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
                     <div className='sm:text-right sm:pb-8 pb-4 pl-4'>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Annou ay !</p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#D34D2A]'> Annou ay !</p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className ='sm:text-right text-lg font-bold text-[#307C7C]'>
+                    <div className ='sm:text-right text-lg font-bold text-[#60BA9D]'>
                         <p>On vous dit tout sur notre planning et si les activités vous intéresse venez avec nous. </p>
                     </div>
                 <div>
