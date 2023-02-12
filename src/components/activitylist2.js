@@ -29,7 +29,7 @@ export default function ActivityList2() {
         {categories.map(category => (
           <option
           value={category}
-          style={{ background: category === selectedCategory ? '#F3CB7C' : '' }}
+          style={{ background: category === selectedCategory ? '#00739F' : '' }}
         >
           {category}
         </option>
@@ -40,7 +40,7 @@ export default function ActivityList2() {
         {categories.map(category => (
           <button className='hidden sm:inline-flex'
             onClick={() => handleCategoryChange(category)}
-            style={{ background: category === selectedCategory ? '#F3CB7C' : '' }}
+            style={{ background: category === selectedCategory ? '#00739F' : '' }}
           >
             {category}
           </button>
@@ -55,9 +55,9 @@ export default function ActivityList2() {
                           <img className='w-full' onClick={() => {setOpen(true); setCurrentImage(index)}} src={activity.link} alt="" />
                         </div>
                           <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2 text-[#AE682E]">{activity.nom}
+                            <div className="font-bold text-xl mb-2 text-[#00739F]">{activity.nom}
                               <p className="text-gray-700 text-sm pb-4">{activity.infos}</p>
-                              <a className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 text-[#307C7C]" href={activity.lien} target="_blank">Plus d'infos</a>
+                              <a className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 text-[#00739F]" href={activity.lien} target="_blank">Plus d'infos</a>
                             </div>
                           </div>
                       </div>

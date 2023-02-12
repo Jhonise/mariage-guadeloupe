@@ -158,7 +158,7 @@ export const activities =[
   nom :'Plongée sous-marine',
   alt :'Plongée sous-marine',
   categories : ['Mer', 'Plage', 'Baignade'],
-  infos :"Explorez les récifs coralliens et la vie marine colorée de la Guadeloupe. Nous vous conseillons d'aller à la plage de Malendure à Bouillante)",
+  infos :"Explorez les récifs coralliens et la vie marine colorée de la Guadeloupe. Nous vous conseillons d'aller à la plage de Malendure à Bouillante",
   lien :'http://www.reserve-cousteau.com/'
 },
 {

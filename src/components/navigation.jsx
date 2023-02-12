@@ -75,7 +75,7 @@ const Navigation = () => {
                         <p>On vous dit tout sur notre planning, sentez-vous libre de venir avec nous ! </p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Vous avez le pied marin ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
+                    <p className='text-[#0085B8]'>Vous avez le pied marin ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
                     <div className='grid sm:grid-cols-2  pt-4'>   
                         <Link className ='px-3 text-[#00739F] font-bold ' to='/agenda'> Agenda des mariés <HiArrowNarrowRight className='ml-2'/></Link>
                     </div> 
