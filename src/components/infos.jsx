@@ -48,7 +48,7 @@ const Infos =() => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
-                        <p>La cérémonie religieuse aura lieu à l'église de la ville de Goyave suivi de la soirée à l'habitation Saint-Charles</p>
+                        <p>La cérémonie religieuse aura lieu à l'église de la ville de Goyave qui sera suivi d'un dîner à l'habitation Saint-Charles</p>
                     </div>
                 <div>
                     <p className='text-[#AE682E]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait. Attention l'église n'est pas référencée sur Google, il faut se rendre dans la rue du Père Benetreau.</p>
