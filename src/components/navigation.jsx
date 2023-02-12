@@ -21,7 +21,7 @@ const Navigation = () => {
             <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-b-8' >
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
                     <div className='sm:text-right sm:pb-8 pb-4 pl-4'>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-pink-600'> Tout savoir </p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Tout savoir </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
