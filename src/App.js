@@ -56,8 +56,8 @@ const Root= () =>{
             </ul>
             {/* Hamburger */}
             <div className='flex'>
-              <p onClick={handleNav} className="md:hidden z-10 px-2">Menu</p>
-              <div onClick={handleNav} className="md:hidden z-10 pt-1">
+              <p onClick={handleNav} className="md:hidden z-20 px-2">Menu</p>
+              <div onClick={handleNav} className="md:hidden z-20 pt-1">
                       {nav ? <AiOutlineClose size={20}/> : <HiOutlineMenuAlt4 size={20}/>}
               </div>
             </div>
