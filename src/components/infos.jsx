@@ -69,6 +69,3 @@ const Infos =() => {
 }
 
 export default Infos
-
-
-https://www.google.fr/maps/place/Habitation+Saint+Charles/@16.2206464,-61.627064,17z/data=!3m1!4b1!4m9!3m8!1s0x8c13431f464a4fe7:0xedb616771ce6e5da!5m2!4m1!1i2!8m2!3d16.2206413!4d-61.6248753!16s%2Fg%2F11h9h1f_j7
