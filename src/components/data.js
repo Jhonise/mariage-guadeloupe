@@ -60,13 +60,13 @@ export const activities =[
         alt : 'Plage de Grande Anse',
         categories : ['Promenade','Plage', 'Baignade'],
         infos : "La plage de Grande Anse est l'une des plus grandes plages de Guadeloupe, dans la partie nord-ouest de Basse-Terre. Selon les envies : bronzette, chill, baignade, marche le long du littoral",
-        lien :'https://www.lodge-coco.com/plage-grande-anse/'
+        lien :'https://www.routard.com/guide_voyage_lieu/4982-plage_de_grande_anse.htm'
     },
     {
       id : "3",
       link : SaintAnne,
-      nom :'Plage de Caravelle - Saint Anne',
-      alt :'Plage de Caravelle - Saint Anne',
+      nom :'Plage de Caravelle - Sainte Anne',
+      alt :'Plage de Caravelle - Sainte Anne',
       categories : ['Promenade', 'Plage', 'Baignade'],
       infos : "Plage incontournable de la Guadeloupe, la plage de la caravelle est une plage où l'eau est calme et peu profonde. Idéale pour jouer, se prélasser ou regarder les poissons près des rochers durant la journée. Plage éclairée le soir",
       lien :'https://www.routard.com/guide_voyage_lieu/14855-plage_de_la_caravelle.htm'
@@ -74,8 +74,8 @@ export const activities =[
     {
         id : "4",
         link : MarcheSainteAnne,
-        nom :'Marché de Saint-Anne',
-        alt :'Marché de Saint-Anne',
+        nom :'Marché de Sainte-Anne',
+        alt :'Marché de Sainte-Anne',
         categories : ['Marché'],
         infos :"Le marché de Sainte-Anne est un marché aux multiples couleurs et parfums. Les nombreux étales du marché vous proposent des fleurs tropicales, de l'artisanat (colliers, boucles d'oreilles, paréos, paniers...), des maillots de bain et des serviettes de bain. Les étals de rhums et d'épices sont nombreux, il vous sera possible de gouter les différents rhums arrangés (vanille, ananas, banane, coco...).",
         lien :'https://www.annuaire-mairie.fr/marche-sainte-anne-971.html'
@@ -86,7 +86,7 @@ export const activities =[
     nom :'Marché de Petit Bourg',
     alt :'Marché de Petit Bourg',
     categories : ['Marché'],
-    infos :"Ce marché est aussi appelé le « jadenpéyi ti-bou », car vous découvrirez une atmosphère festive et familiale. A lieu tous les vendredis de 15h à 22h.",
+    infos :"Marché le plus proche de l'habitation Saint-Charles, vous découvrirez une atmosphère festive et familiale. A lieu tous les vendredis de 15h à 22h.",
     lien :'https://terres-de-guadeloupe.com/les-marches-sur-basse-terre/'
 },
 {
@@ -158,7 +158,7 @@ export const activities =[
   nom :'Plongée sous-marine',
   alt :'Plongée sous-marine',
   categories : ['Mer', 'Plage', 'Baignade'],
-  infos :"Explorez les récifs coralliens et la vie marine colorée de la Guadeloupe. Nous vous conseillons d'aller à la plage de Malendure à Bouillante",
+  infos :"Explorez les récifs coralliens et la vie marine colorée de la Guadeloupe. Nous conseillons la plage de Malendure à Bouillante",
   lien :'http://www.reserve-cousteau.com/'
 },
 {
@@ -203,7 +203,7 @@ export const activities =[
   nom :'Les îles de Guadeloupe : Les Saintes',
   alt :'Les Saintes',
   categories : ['Mer', 'Plage', 'Baignade', "Promenade", "Bateau"],
-  infos :"Visitez les îles voisines des Saintes et profitez de leur charme paisible et de leurs plages de sable blanc. Spécialité : Tourments d’amour (gâteau)",
+  infos :"Visitez les Saintes et profitez du charme paisible et des plages de sable blanc. Spécialité : Tourment d’amour (gâteau)",
   lien :'https://www.lesilesdeguadeloupe.com/tourisme/fr-fr/iles/les-saintes'
 },
 {

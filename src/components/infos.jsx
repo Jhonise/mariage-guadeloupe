@@ -42,16 +42,16 @@ const Infos =() => {
             <div className='pt-20 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-ful border-b-8'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className ='text-[#D34D2A] text-left'>Samedi 3 juin 2023 à 15h</p>
+                        <p className ='text-[#808080] text-left'>Samedi 3 juin 2023 à 15h</p>
                         <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> Mariage </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
+                    <div className ='sm:text-right text-2xl font-bold text-[#808080]'>
                         <p>La cérémonie religieuse qui aura lieu à l'église de la ville de Goyave sera suivie d'un dîner à l'habitation Saint-Charles</p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait. Attention l'église n'est pas référencée sur Google, il faut se rendre dans la rue du Père Benetreau.</p>
+                    <p className='text-[#0085B8]'>Pas de dress code particulier pour le Jour J mais si vous avez du bleu ou une pointe de bleu c'est parfait. Attention l'église n'est pas référencée sur Google, il faut se rendre dans la rue du Père Benetreau.</p>
                     <div className='grid sm:grid-cols-2'>   
                         <MapButton2 addressEglise='Adresse Eglise' />
                         <MapButton addressHabitation='Adresse Soirée' />
@@ -62,32 +62,32 @@ const Infos =() => {
             <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-b-8'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className ='text-[#D34D2A] text-left'>Proposition d'activité</p>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Ensemble </p>
+                        <p className ='text-[#808080] text-left'>Proposition d'activité</p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> Ensemble </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
+                    <div className ='sm:text-right text-2xl font-bold text-[#808080]'>
                         <p>Nous vous proposons de découvrir sur une journée la réserve naturelle sur l'île de Petite terre. Journée organisée à 110 euros par personne (All inclusive)</p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage de sable blanc, lagon et l'occasion d'admirer la faune et la flore caribbéenne sous-marine </p>
+                    <p className='text-[#0085B8]'>Pour aller à Petite terre il faut prendre le bateau. Activité incontournable : plage de sable blanc, lagon et l'occasion d'admirer la faune et la flore caribbéenne sous-marine </p>
                 </div>
                 </div>
             </div>
             <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-full border-b-8'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
-                        <p className ='text-[#D34D2A] text-left'>Pour ceux qui partent avec nous</p>
-                        <p className='text-4xl sm:text-7xl font-bold inline text-[#CEA450] border-b-4 border-[#D34D2A]'> Avion </p>
+                        <p className ='text-[#808080] text-left'>Pour ceux qui partent avec nous</p>
+                        <p className='text-4xl sm:text-7xl font-bold inline text-[#00739F] border-b-4 border-[#FDB400]'> Avion </p>
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className ='sm:text-right text-2xl font-bold text-[#307C7C]'>
+                    <div className ='sm:text-right text-2xl font-bold text-[#808080]'>
                         <p>Départ le 1er Juin à 12h20 de Paris (Orly) et arrivée à 15h00 à Pointe-à-Pitre.</p>
                     </div>
                 <div>
-                    <p className='text-[#AE682E]'>Pensez à vous munir de votre passeport ou carte d'identité (en cours de validité).
+                    <p className='text-[#0085B8]'>Pensez à vous munir de votre passeport ou carte d'identité (en cours de validité).
                    Il faut être sur place minimum deux heures avant l'embarquement.</p>
                 </div>
                 </div>
