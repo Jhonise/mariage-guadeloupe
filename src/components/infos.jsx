@@ -4,7 +4,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const MapButton = ({ address }) => {
     const handleClick = () => {
-      window.open(`https://www.google.com/maps/search/?api=1&query=habitation+saint+charles+Chemin+de+Grippiere,+Petit-Bourg,+Guadeloupe`, '_blank');
+      window.open(`https://www.google.com/maps/search/?api=1&query=habitation+saint+charles+Chemin+de+Grippiere+Petit-Bourg+Guadeloupe`, '_blank');
     };
   
     return (

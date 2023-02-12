@@ -6,12 +6,12 @@ export default function FAQ (){
         title: "FAQ",
         rows: [
             {
-                title: "Est-ce que Angélique est belle ?",
-                content: `Oui c'est une évidence`,
+                title: "Quel temps fera-t-il en Guadeloupe ?",
+                content: `Nous serons dans la saison chaude, il faudra compter entre 25 et 30 degrés. Prenez de la crême solaire et n'oubliez pas des vêtements un peu chaud si vous souhaitez randonner en haut du volcan de la soufrière`,
             },
             {
-                title: "Comment fait-on pour se déplacer",
-                content:"Nous recommandons vivement de louer une voiture. Pensez à faire du covoiturage. Pour l'instant chacun doit faire sa réservation par ses propres moyens. Nous vous conseillons de réserver une voiture auprès des agences de l'aéroport de Pointe-à-pitre",
+                title: "Comment se déplacer en Guadeloupe",
+                content:"Nous recommandons vivement de louer une voiture. Pensez à faire du covoiturage. Nous n'organisons pas le service de réservation de voiture. Nous vous conseillons de réserver une voiture auprès des agences de l'aéroport de Pointe-à-pitre",
             },
             {
                 title: "Des vaccins, des papiers ou autre chose à prévoir ?",
