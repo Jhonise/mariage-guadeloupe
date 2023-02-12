@@ -7,7 +7,7 @@ export default function FAQ (){
         rows: [
             {
                 title: "Quel temps fera-t-il en Guadeloupe ?",
-                content: `Nous serons dans la saison chaude, il faudra compter entre 25 et 30 degrés. Prenez de la crême solaire et n'oubliez pas des vêtements un peu chaud si vous souhaitez randonner en haut du volcan de la soufrière`,
+                content: `Nous serons dans la saison chaude, il faudra compter entre 25 et 30 degrés. N'oubliez pas des vêtements un peu chauds si vous souhaitez randonner en haut du volcan de la soufrière`,
             },
             {
                 title: "Comment se déplacer en Guadeloupe",
@@ -18,6 +18,11 @@ export default function FAQ (){
                 content: `Il faut absolument que vous ayez un passeport ou carte d'identité à jour au moment de l'embarquement.
                 Pas de vaccin à prévoir. Prenez de la crême solaire tout de même`,
             },
+            {
+                title: "Comment réserver le logement à l'Habitation Saint Charles?",
+                content: `Nous allons transmettre vos coordonnées téléphoniques à l'habitation qui se chargera de vous appeler pour payer l'hébergement. Pour plus de simplicité. Pour plus de simplicité, donnez-nous vos adresses mails que nous communiquerons.`,
+            },
+
         ],
     };
     

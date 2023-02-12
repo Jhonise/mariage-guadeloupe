@@ -63,7 +63,7 @@ const Root= () =>{
             </div>
 
             {/* Mobile menu dropdown */}
-            <div onClick={handleNav} className={nav ? 'fixed left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex-col font-bold text-[#CEA450]' : 'absolute left-[-100%] top-0 w-full bg-gray-100/90 px-4 py-7 flex-col'}>
+            <div onClick={handleNav} className={nav ? 'fixed left-0 top-0 w-full z-20 bg-gray-100/90 px-4 py-7 flex-col font-bold text-[#CEA450]' : 'absolute left-[-100%] top-0 w-full bg-gray-100/90 px-4 py-7 flex-col'}>
                 <ul>
                     <li>
                       <Link className ='px-3 ' to='/'> Accueil</Link>
