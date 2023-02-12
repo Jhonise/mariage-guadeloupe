@@ -39,7 +39,7 @@ const MapButton = ({ addressHabitation }) => {
 const Infos =() => {
     return (
         <div>
-            <div className='pt-10 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-ful border-b-8'>
+            <div className='pt-20 pb-10 sm:pt-20 px-4 flex flex-col justify-center items-center w-full h-ful border-b-8'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
                         <p className ='text-[#D34D2A] text-left'>Samedi 3 juin 2023 à 15h</p>
