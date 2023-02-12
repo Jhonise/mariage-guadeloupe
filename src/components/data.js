@@ -40,7 +40,7 @@ export const activities =[
     nom :'Excursion réserve à Petite Terre',
     alt :'Excursion réserve à Petite Terre',
     categories : ['Bateau', 'Mer', 'Baignade'],
-    infos :"Petite Terre est un archipel de deux ilets classés Réserve Naturelle depuis 1998. Le phare est l’unique construction. Vous découvrirez une magnifique plage de sable blanc ombragée de cocotiers, un lagon aux eaux cristallines, une faune et une flore préservées.",
+    infos :"Petite Terre est un archipel de deux ilets classés Réserve Naturelle depuis 1998. Le phare est l’unique construction. Vous découvrirez une magnifique plage de sable blanc ombragée de cocotiers, un lagon aux eaux cristallines, une faune et une flore préservées. Journée all inclusive à 110 euros",
     lien :'https://www.petite-terre.com/'
 },
     {

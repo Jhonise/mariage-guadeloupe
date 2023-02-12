@@ -26,13 +26,13 @@ const Navigation = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-lg font-bold text-[#808080]'>
-                        <p>On vous a préparé un récapitulatif des infos majeures à retenir et on répond aux questions dans une FAQ</p>
+                        <p>On vous a préparé un récapitulatif des infos majeures dans informations utiles et on répond aux questions dans une FAQ accessible ci-dessous</p>
                     </div>
                 <div>
-                    <p className='text-[#FDB400]'>Si vous trouvez pas la réponse, il y a toujours la conversation What's app</p>
+                    <p className='text-[#004D00]'>Si vous ne trouvez pas la réponse, il y a toujours la conversation WhatsApp</p>
                     <div className='grid sm:grid-cols-2 px-2 py-4'>   
-                        <Link className ='px-3 text-[#00739F] font-bold ' to='/informations'> Informations utiles </Link>
-                        <Link className ='px-3 text-[#00739F] font-bold' to='/faq'> FAQ </Link>
+                        <Link className ='px-3 text-[#00739F] font-bold ' to='/informations'> Informations utiles <HiArrowNarrowRight className='ml-2'/></Link>
+                        <Link className ='px-3 text-[#00739F] font-bold' to='/faq'> FAQ <HiArrowNarrowRight className='ml-2'/></Link>
                     </div> 
                 </div>
                 </div>
@@ -72,10 +72,10 @@ const Navigation = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className ='sm:text-right text-lg font-bold text-[#60BA9D]'>
-                        <p>On vous dit tout sur notre planning et si les activités vous intéresse venez avec nous. </p>
+                        <p>On vous dit tout sur notre planning, sentez-vous libre de venir avec nous ! </p>
                     </div>
                 <div>
-                    <p className='text-[#00739F]'>Pas malade en bateau ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
+                    <p className='text-[#0C700C]'>Vous avez le pied marin ? Une activité à ne pas louper : excursion dans la réserve naturelle de Petite terre.</p>
                     <div className='grid sm:grid-cols-2  pt-4'>   
                         <Link className ='px-3 text-[#D34D2A] font-bold ' to='/agenda'> Agenda des mariés </Link>
                     </div> 
